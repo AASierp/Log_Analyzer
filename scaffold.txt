@@ -1,0 +1,39 @@
+ask the questions:
+    what data do I need?
+    where does that data live? (location and structure)
+    how do I access it from where I need it?
+    Ask the right questsions.
+
+Program Scaffold:
+    - log_analyser.py (main)
+        imports all other files.
+        calls from data_parser.py:
+            - read_and_clean_data
+            - model_data
+        calls from detection.py:
+            - find_failed_logins
+            - find_suspicious_ips
+            - find_priv_esc
+            - failed_login_data
+            - find_success_after_failure
+            - find_priv_esc_success
+            - priv_change_filter
+            
+    - data_parser.py:
+        functions:
+            - read_and_clean_data (Reads and cleans data (white space))
+            - model_data (Normalizes data into a dict)
+    
+    - dectection.py
+        functions:
+            - find_failed_logins (Needs to return total failed logins & repeated failed attempts from the same user/ip)
+            - find_suspicious_ips (Needs to return a list of sus_ips IE - same ip, many attempts at login and counts)
+            - find_priv_esc (Needs to return total attempts at priv esc)
+            - find_success_after_failure (Needs to return user/ip that have have successfully logged in after multiple failed attempts)
+            - find_priv_esc_success (Needs to return full record where priv esc was successful)
+            - priv_esc_filter (Needs to return lists of priv esc success, filtered into different risk catagories)
+
+    - report.py
+        functions:
+            - build_report
+            

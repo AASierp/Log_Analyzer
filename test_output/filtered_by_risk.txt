@@ -1,0 +1,95 @@
+HIGH RISK {'Timestamp': '2026-03-12T02:43:11Z', 'AUTH': 'PRIV_CHANGE', 'User': 'hmulrooney1', 'IP': '194.77.213.18', 'Message': 'Granted sudo privileges'}
+HIGH RISK {'Timestamp': '2026-03-16T01:27:30Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '51.91.61.140', 'Message': 'Granted sudo privileges'}
+HIGH RISK {'Timestamp': '2026-03-10T20:03:39Z', 'AUTH': 'PRIV_CHANGE', 'User': 'hgaineofengland3', 'IP': '84.201.139.199', 'Message': 'Granted sudo privileges'}
+HIGH RISK {'Timestamp': '2026-03-17T14:14:39Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '98.241.7.192', 'Message': 'Granted sudo privileges'}
+HIGH RISK {'Timestamp': '2026-03-10T16:28:52Z', 'AUTH': 'PRIV_CHANGE', 'User': 'cpittam5', 'IP': '79.68.37.38', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-10T19:12:34Z', 'AUTH': 'PRIV_CHANGE', 'User': 'bphayre6', 'IP': '195.195.1.138', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-15T19:24:15Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '215.111.196.43', 'Message': 'Logged in as root'}
+HIGH RISK {'Timestamp': '2026-03-11T15:40:46Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '27.214.198.117', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-14T20:40:29Z', 'AUTH': 'PRIV_CHANGE', 'User': 'nphilippea', 'IP': '71.121.191.107', 'Message': 'Logged in as root'}
+HIGH RISK {'Timestamp': '2026-03-17T18:43:22Z', 'AUTH': 'PRIV_CHANGE', 'User': 'rklaaasenc', 'IP': '238.213.65.94', 'Message': 'Granted sudo privileges'}
+HIGH RISK {'Timestamp': '2026-03-14T17:58:23Z', 'AUTH': 'PRIV_CHANGE', 'User': 'ealdritte', 'IP': '214.103.94.217', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-10T19:18:44Z', 'AUTH': 'PRIV_CHANGE', 'User': 'bbrunag', 'IP': '127.163.4.42', 'Message': 'Logged in as root'}
+HIGH RISK {'Timestamp': '2026-03-10T14:03:51Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '51.167.98.192', 'Message': 'Logged in as root'}
+HIGH RISK {'Timestamp': '2026-03-14T14:24:21Z', 'AUTH': 'PRIV_CHANGE', 'User': 'hsicklingk', 'IP': '210.158.177.73', 'Message': 'Granted sudo privileges'}
+HIGH RISK {'Timestamp': '2026-03-15T08:00:21Z', 'AUTH': 'PRIV_CHANGE', 'User': 'eblindtl', 'IP': '155.248.115.177', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-13T23:53:13Z', 'AUTH': 'PRIV_CHANGE', 'User': 'dmcblainm', 'IP': '136.228.120.55', 'Message': 'Granted sudo privileges'}
+HIGH RISK {'Timestamp': '2026-03-11T10:36:06Z', 'AUTH': 'PRIV_CHANGE', 'User': 'tlearmondn', 'IP': '38.76.148.24', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-12T14:41:56Z', 'AUTH': 'PRIV_CHANGE', 'User': 'bmargramp', 'IP': '186.133.36.204', 'Message': 'Granted sudo privileges'}
+HIGH RISK {'Timestamp': '2026-03-15T06:06:23Z', 'AUTH': 'PRIV_CHANGE', 'User': 'lmacfaydent', 'IP': '63.78.204.129', 'Message': 'Logged in as root'}
+HIGH RISK {'Timestamp': '2026-03-11T12:47:13Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '93.1.127.33', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-12T13:03:27Z', 'AUTH': 'PRIV_CHANGE', 'User': 'kwennam11', 'IP': '161.4.56.8', 'Message': 'Granted sudo privileges'}
+HIGH RISK {'Timestamp': '2026-03-11T08:33:21Z', 'AUTH': 'PRIV_CHANGE', 'User': 'doliveras1n', 'IP': '194.187.18.112', 'Message': 'Logged in as root'}
+HIGH RISK {'Timestamp': '2026-03-10T08:53:21Z', 'AUTH': 'PRIV_CHANGE', 'User': 'rdybald1t', 'IP': '199.85.211.111', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-15T21:01:40Z', 'AUTH': 'PRIV_CHANGE', 'User': 'mshaxby1v', 'IP': '239.215.194.39', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-16T03:22:03Z', 'AUTH': 'PRIV_CHANGE', 'User': 'jcruttenden1w', 'IP': '52.118.195.241', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-17T13:11:52Z', 'AUTH': 'PRIV_CHANGE', 'User': 'hstuke1x', 'IP': '109.148.70.52', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-16T05:15:06Z', 'AUTH': 'PRIV_CHANGE', 'User': 'rbradman1z', 'IP': '131.240.211.105', 'Message': 'Granted sudo privileges'}
+HIGH RISK {'Timestamp': '2026-03-12T23:54:25Z', 'AUTH': 'PRIV_CHANGE', 'User': 'mfairfoull21', 'IP': '195.169.120.69', 'Message': 'Logged in as root'}
+HIGH RISK {'Timestamp': '2026-03-16T16:10:44Z', 'AUTH': 'PRIV_CHANGE', 'User': 'sdeathe23', 'IP': '136.52.247.41', 'Message': 'Granted sudo privileges'}
+HIGH RISK {'Timestamp': '2026-03-12T21:54:34Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '235.240.89.72', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-12T10:28:12Z', 'AUTH': 'PRIV_CHANGE', 'User': 'dmatisoff27', 'IP': '48.62.183.191', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-13T02:21:00Z', 'AUTH': 'PRIV_CHANGE', 'User': 'lgremane2a', 'IP': '168.122.146.184', 'Message': 'Granted sudo privileges'}
+HIGH RISK {'Timestamp': '2026-03-16T14:05:04Z', 'AUTH': 'PRIV_CHANGE', 'User': 'ssemens2c', 'IP': '106.73.155.132', 'Message': 'Logged in as root'}
+HIGH RISK {'Timestamp': '2026-03-12T08:25:02Z', 'AUTH': 'PRIV_CHANGE', 'User': 'bmcniven2d', 'IP': '69.183.67.77', 'Message': 'Granted sudo privileges'}
+HIGH RISK {'Timestamp': '2026-03-16T19:14:42Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '94.234.64.142', 'Message': 'Granted sudo privileges'}
+HIGH RISK {'Timestamp': '2026-03-14T14:45:41Z', 'AUTH': 'PRIV_CHANGE', 'User': 'cdrever2g', 'IP': '236.68.243.33', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-12T23:31:57Z', 'AUTH': 'PRIV_CHANGE', 'User': 'dlasslett2j', 'IP': '131.195.12.213', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-11T10:50:17Z', 'AUTH': 'PRIV_CHANGE', 'User': 'lhouldey2k', 'IP': '42.137.188.195', 'Message': 'Logged in as root'}
+HIGH RISK {'Timestamp': '2026-03-13T15:44:00Z', 'AUTH': 'PRIV_CHANGE', 'User': 'rshilvock2l', 'IP': '200.236.162.162', 'Message': 'Granted sudo privileges'}
+HIGH RISK {'Timestamp': '2026-03-12T06:43:35Z', 'AUTH': 'PRIV_CHANGE', 'User': 'jkairns2o', 'IP': '255.140.35.50', 'Message': 'Granted sudo privileges'}
+HIGH RISK {'Timestamp': '2026-03-14T00:02:24Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '125.232.21.10', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-17T09:16:30Z', 'AUTH': 'PRIV_CHANGE', 'User': 'mkibbee2q', 'IP': '234.32.53.24', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-14T06:43:56Z', 'AUTH': 'PRIV_CHANGE', 'User': 'rdenyukin2t', 'IP': '80.123.211.206', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-15T02:52:49Z', 'AUTH': 'PRIV_CHANGE', 'User': 'vhillen2v', 'IP': '45.2.44.27', 'Message': 'Logged in as root'}
+HIGH RISK {'Timestamp': '2026-03-10T23:31:23Z', 'AUTH': 'PRIV_CHANGE', 'User': 'ifairbank2x', 'IP': '83.217.213.248', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-14T01:33:17Z', 'AUTH': 'PRIV_CHANGE', 'User': 'mknappen2z', 'IP': '173.25.107.246', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-10T04:42:37Z', 'AUTH': 'PRIV_CHANGE', 'User': 'pbemwell30', 'IP': '38.139.13.225', 'Message': 'Logged in as root'}
+HIGH RISK {'Timestamp': '2026-03-13T12:14:12Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '192.63.184.248', 'Message': 'Logged in as root'}
+HIGH RISK {'Timestamp': '2026-03-17T05:17:58Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '57.93.189.70', 'Message': 'User added to administrators group'}
+HIGH RISK {'Timestamp': '2026-03-10T02:44:27Z', 'AUTH': 'PRIV_CHANGE', 'User': 'evazquez35', 'IP': '10.0.2.87', 'Message': 'User added to administrators group'}
+LOW RISK {'Timestamp': '2026-03-17T12:52:15Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '53.248.13.123', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-10T07:20:10Z', 'AUTH': 'PRIV_CHANGE', 'User': 'mabell8', 'IP': '187.189.169.208', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-12T11:46:54Z', 'AUTH': 'PRIV_CHANGE', 'User': 'jwadlowb', 'IP': '195.164.21.242', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-14T18:21:53Z', 'AUTH': 'PRIV_CHANGE', 'User': 'govelld', 'IP': '17.208.115.147', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-13T07:35:26Z', 'AUTH': 'PRIV_CHANGE', 'User': 'lstainesf', 'IP': '206.28.51.8', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-13T12:51:05Z', 'AUTH': 'PRIV_CHANGE', 'User': 'radaminii', 'IP': '39.153.38.122', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-12T14:05:36Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '162.211.191.140', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-14T06:31:23Z', 'AUTH': 'PRIV_CHANGE', 'User': 'rvinto', 'IP': '223.245.96.110', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-17T15:03:03Z', 'AUTH': 'PRIV_CHANGE', 'User': 'bhearnesq', 'IP': '175.101.151.252', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-16T22:17:50Z', 'AUTH': 'PRIV_CHANGE', 'User': 'jhewinsr', 'IP': '253.158.27.57', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-16T06:32:55Z', 'AUTH': 'PRIV_CHANGE', 'User': 'kstreatfields', 'IP': '82.11.147.213', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-11T06:49:51Z', 'AUTH': 'PRIV_CHANGE', 'User': 'rrobinsonw', 'IP': '63.37.91.225', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-10T22:12:48Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '141.242.251.142', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-14T23:45:17Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '220.112.12.221', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-13T07:17:22Z', 'AUTH': 'PRIV_CHANGE', 'User': 'dbeevis10', 'IP': '99.4.203.185', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-10T13:56:16Z', 'AUTH': 'PRIV_CHANGE', 'User': 'edymoke12', 'IP': '95.48.83.200', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-13T05:10:40Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '114.162.125.102', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-16T20:57:46Z', 'AUTH': 'PRIV_CHANGE', 'User': 'witzhaki1o', 'IP': '222.40.229.183', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-10T14:12:43Z', 'AUTH': 'PRIV_CHANGE', 'User': 'blerhinan1p', 'IP': '106.71.242.1', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-13T11:00:32Z', 'AUTH': 'PRIV_CHANGE', 'User': 'nfrankis1q', 'IP': '7.65.86.176', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-17T09:27:13Z', 'AUTH': 'PRIV_CHANGE', 'User': 'cackroyd1r', 'IP': '191.177.215.207', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-11T18:36:53Z', 'AUTH': 'PRIV_CHANGE', 'User': 'dmarquese1s', 'IP': '9.125.71.35', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-17T05:24:22Z', 'AUTH': 'PRIV_CHANGE', 'User': 'rrolfo1u', 'IP': '206.110.221.158', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-11T03:17:35Z', 'AUTH': 'PRIV_CHANGE', 'User': 'gbarthelet1y', 'IP': '216.97.254.32', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-14T14:28:47Z', 'AUTH': 'PRIV_CHANGE', 'User': 'gscotti20', 'IP': '122.167.220.85', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-13T18:01:19Z', 'AUTH': 'PRIV_CHANGE', 'User': 'cseawright22', 'IP': '52.83.125.41', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-13T18:32:26Z', 'AUTH': 'PRIV_CHANGE', 'User': 'adeverson24', 'IP': '37.245.29.204', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-10T16:45:10Z', 'AUTH': 'PRIV_CHANGE', 'User': 'ppurver26', 'IP': '232.89.201.111', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-16T17:55:32Z', 'AUTH': 'PRIV_CHANGE', 'User': 'sbuckbee28', 'IP': '19.87.183.229', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-10T16:06:52Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '129.16.101.108', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-15T01:58:46Z', 'AUTH': 'PRIV_CHANGE', 'User': 'dblenkensop2b', 'IP': '220.10.116.198', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-15T08:34:30Z', 'AUTH': 'PRIV_CHANGE', 'User': 'alebrum2f', 'IP': '214.119.198.228', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-10T13:35:18Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '135.103.53.111', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-14T16:40:57Z', 'AUTH': 'PRIV_CHANGE', 'User': 'cjumel2i', 'IP': '133.49.133.245', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-10T13:35:18Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '135.103.53.111', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-14T16:40:57Z', 'AUTH': 'PRIV_CHANGE', 'User': 'cjumel2i', 'IP': '133.49.133.245', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-13T10:13:46Z', 'AUTH': 'PRIV_CHANGE', 'User': 'fbasten2m', 'IP': '197.205.155.41', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-16T09:58:07Z', 'AUTH': 'PRIV_CHANGE', 'User': 'lwickman2n', 'IP': '118.49.218.81', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-17T12:35:44Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '232.158.179.28', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-13T04:36:55Z', 'AUTH': 'PRIV_CHANGE', 'User': 'gpeete2s', 'IP': '142.219.254.61', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-10T20:00:26Z', 'AUTH': 'PRIV_CHANGE', 'User': 'hhevner2u', 'IP': '116.179.99.94', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-11T14:05:45Z', 'AUTH': 'PRIV_CHANGE', 'User': 'aorto2w', 'IP': '67.207.108.195', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-12T04:11:06Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '131.143.28.72', 'Message': 'chown command failed'}
+LOW RISK {'Timestamp': '2026-03-15T03:21:48Z', 'AUTH': 'PRIV_CHANGE', 'User': 'root', 'IP': '32.27.135.194', 'Message': 'chmod command failed'}
+LOW RISK {'Timestamp': '2026-03-17T14:43:44Z', 'AUTH': 'PRIV_CHANGE', 'User': 'dcandey33', 'IP': '49.84.55.19', 'Message': 'chmod command failed'}
