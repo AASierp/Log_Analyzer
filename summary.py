@@ -1,6 +1,6 @@
+import csv
 
-
-def build_report_txt(report_data): 
+def build_report(report_data): 
     total_records = report_data.get("total_records", 0) #int
     total_failed_logins = report_data.get("total_failed_logins", 0) #int
     failed_login_records = report_data.get("failed_login_records", []) #list of full records(dict)
@@ -11,6 +11,7 @@ def build_report_txt(report_data):
     suspicious_users = report_data.get("suspicious_users", {}) #dict
     potential_breach = report_data.get("success_after_failure", {}) #dict
     priv_change_filtered = report_data.get("priv_change_filtered", ([], [])) #tuple, 2 lists
+    total_flagged_indicators = report_data.get("total_flagged_indicators", [])
     
     repeat_failed_logins_formatted = ""
     for key, value in repeat_failed_logins.items():
@@ -40,9 +41,7 @@ def build_report_txt(report_data):
     high, low = priv_change_filtered
     
     
-
-
-    totals = f"""
+    summary = f"""
     Log Analysis Summary Report
     ============================
 
@@ -56,19 +55,18 @@ def build_report_txt(report_data):
 
     Suspicious Users: {len(suspicious_users)}
 
-    Combined Flag Indicators: {total_failed_logins + len(flagged_ips) + len(priv_esc) + len(suspicious_users)}
-
+    Total Unique Flagged Indicators: {total_flagged_indicators}
 
     Flagged Events
     ============================
 
     Failed Login Activity:
 
-        Repeated failed login attempts may indicate brute forcing, partial credential theft or password spraying.
+        Repeated failed login attempts may indicate brute force activity, partial credential theft or password spraying.
 
         Total failed logins: {total_failed_logins}
 
-        Example Record: {failed_login_records[0], None}
+        Example Record: {failed_login_records[0] if failed_login_records else "None"}
 
         Users with greater than five failed attempts:\n\n{repeat_failed_logins_formatted}
 
@@ -82,10 +80,10 @@ def build_report_txt(report_data):
 
     Suspicious Users:
 
-        User names that contain unusual characters or appear malformed may indicate bot activity, fuzzing attempts or SQL injection.
+        Usernames that contain unusual characters or appear malformed may indicate bot activity, fuzzing attempts or SQL injection.
         The following names were flagged based on unusual character usage and the absence of typically required characters.
 
-        Abnormal User Names Detected:\n\n{suspicious_users_formatted}
+        Abnormal UserNames Detected:\n\n{suspicious_users_formatted}
 
     Privilege Escalation Activity:
 
@@ -107,4 +105,16 @@ def build_report_txt(report_data):
 
     """ 
 
-    return totals
+    return summary
+
+def print_summary_console(summary):
+    print(summary)
+
+def write_report_txt(summary):
+    with open("summary.txt", "w") as file:
+        file.write(summary)
+
+def write_summary_md(summary):
+    with open("summary.md", "w") as file:
+        file.write(summary)
+

@@ -45,16 +45,18 @@ def find_priv_esc(modeled_data):
 def find_suspicious_ips(modeled_data):
     suspicious_ips = {}
     flagged_suspicious_ips = {}
+    suspicious_ips_whole_record = []
 
     for record in modeled_data:
         if record.get("AUTH") == "AUTH_FAIL" or record.get("AUTH") == "PRIV_CHANGE" :
             key = record.get("IP")
             suspicious_ips[key] = suspicious_ips.get(key, 0) + 1
+            suspicious_ips_whole_record.append(record)
     for key, count in suspicious_ips.items():
         if count > 5:
             flagged_suspicious_ips[key] = suspicious_ips.get(key, count)
 
-    return flagged_suspicious_ips
+    return flagged_suspicious_ips, suspicious_ips_whole_record
 
     # with open("test_output/sus_ips.txt", "w") as file:
     #     for key, count in flagged_suspicious_ips.items():
@@ -125,16 +127,41 @@ def priv_change_filter(modeled_data):
 
 def find_suspicious_users(modeled_data):
     suspicious_users = {}
+    suspicious_users_record = []
     for record in modeled_data:
         user = record.get("User")
         ip = record.get("IP")
         auth = record.get("AUTH")
         key = (user, ip, auth)
-        if not re.fullmatch(r"(?!.*@,*@)[a-zA-Z0-9_.-@]+", user):
-            suspicious_users[key] = suspicious_users.get(user, 0) + 1
+        if not re.fullmatch(r"(?!.*@.*@)[A-Za-z0-9_.@-]+", user):
+            suspicious_users[key] = suspicious_users.get(key, 0) + 1
+            suspicious_users_record.append(record)
 
     # with open("test_output/sus_users.txt", "w") as file:
     #     for key, value in suspicious_users.items():
     #         file.write(f"{key}: {value}\n")
 
-    return suspicious_users
+    return suspicious_users, suspicious_users_record
+
+def total_flagged_indicators(failed_login_attempts, escalated_users, suspicious_ips_whole_record, suspicious_users_whole_record ):
+    unique_records = set()
+    total_records = []
+    total_records.extend(failed_login_attempts)
+    total_records.extend(escalated_users)
+    total_records.extend(suspicious_ips_whole_record)
+    total_records.extend(suspicious_users_whole_record)
+
+    for record in total_records:
+        record_key = (
+            record.get("Timestamp"),
+            record.get("AUTH"),
+            record.get("User"),
+            record.get("IP"),
+            record.get("Message"),
+        )
+        
+        unique_records.add(record_key)
+    
+    return len(unique_records)
+    
+    
