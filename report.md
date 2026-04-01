@@ -10,20 +10,21 @@ The dataset analyzed was "sample_log.txt", a log file provided with the assignme
 
 ## 3. Parsing and Data Modeling:
 
-First the file is read line by line. The lines are stripped of white space. Each field is split by tab serparation. Then the data normalized, modeled added to a dictionary data structure and returned.
+First the file is read line by line. The lines are stripped of white space. Each field is split by tab separation. Then the data normalized, modeled added to a dictionary data structure and returned.
 
 ## 4. Detection Logic:
 
 Detection logic was then applied in several areas:
 
 - Failed login detection counted repeated "AUTH_FAIL" events, filtered by number of occurences per user and returned a dictionary count of usernames/ip pairs.
-- Suspicious IP detection identified IPs with repeated failed activity, successful access after repeated failures, or privilege escalation activity, both failed and successful. A dictionary data structure was also used in these cases to model and store returned data.
+- Suspicious IP detection identified IPs with repeated failed login attempts, successful access after repeated failures, or privilege escalation activity. A dictionary data structure was also used in these cases to model and store returned data. The data then was compared and correlated with previously flagged records.
 - Privilege escalation detection looked for "PRIV_CHANGE" events and filtered them by high-risk keywords such as "sudo", "administrator", "root", "elevated", and "privilege".
-- Suspicious username detection flagged usernames containing malformed or unusual character patterns.
+- Suspicious username detection flags usernames containing malformed or unusual character patterns.
+  which may indicate bot activity, fuzzing attempts or invalid credential submissions.
 
 ## 5. Findings:
 
-The analysis processed 1234 log records. It identified 169 failed login attempts, 4 suspicious IPs, 95 privilege escalation attempts, and 8 suspicious usernames. One external IP in particular, "51.185.130.223", stood out because it was tied to a high volume of failed login attempts, malformed usernames, and later successful access to multiple accounts. Another suspicious IP, "10.0.2.87", was associated with privilege escalation activity. These patterns suggest possible brute-force behavior, account compromise, and privilege abuse.
+The analysis processed 1234 log records. It identified 169 failed login attempts, 4 suspicious IPs, 95 privilege escalation attempts, and 8 suspicious usernames. One external IP in particular, "51.185.130.223", stood out because it was tied to a high volume of failed login attempts, malformed usernames, and later successful access to multiple accounts. Another suspicious IP, "10.0.2.87", was associated with successful privilege escalation activity. These patterns suggest possible brute-force behavior, account compromise, and privilege abuse.
 
 ## 6. Recommendations:
 

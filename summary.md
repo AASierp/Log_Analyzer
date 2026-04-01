@@ -86,9 +86,9 @@
         IPs/Users that achieved access in addition to many failed attempts:
 
           - IP: 51.185.130.223, User: bferryman2k
+          - IP: 51.185.130.223, User: semonsi
           - IP: 51.185.130.223, User: kyardyu
           - IP: 51.185.130.223, User: sdecayette1p
-          - IP: 51.185.130.223, User: semonsi
 
 
         IPs/Users that achieved privilege escalation:
