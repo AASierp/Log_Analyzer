@@ -91,13 +91,14 @@ def find_priv_esc_success(modeled_data, flagged_suspicious_ips):
         auth = record.get("AUTH")
         ip = record.get("IP")
         user = record.get("User")
-        key = (ip, user)
+        message = record.get("Message")
+        key = (ip, user, auth)
         if ip in flagged_suspicious_ips and auth == "PRIV_CHANGE":
-            breach_with_priv_esc[key] = auth
+            breach_with_priv_esc[key] = message
     
-    # with open("test_output/breach_with_priv_esc.txt", "w")as file:
-    #     for ip, auth in breach_with_priv_esc.items():
-    #         file.write(f"IP: {ip} - AUTH: {auth}\n")
+    with open("test_output/breach_with_priv_esc.txt", "w")as file:
+        for ip, auth in breach_with_priv_esc.items():
+            file.write(f"IP: {ip} - AUTH: {auth}\n")
     
     return breach_with_priv_esc
 
@@ -163,5 +164,3 @@ def total_flagged_indicators(failed_login_attempts, escalated_users, suspicious_
         unique_records.add(record_key)
     
     return len(unique_records)
-    
-    

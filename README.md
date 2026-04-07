@@ -16,7 +16,9 @@ This project analyzes authentication logs for suspicious activity such as repeat
 
 Run the program from the terminal:
 
-python log_analyzer.py sample_log.txt
+python log_analyzer.py OR
+
+python log_analyzer.py + path of desired log
 
 You may also hardcode the filename if needed for a beginner-friendly version.
 

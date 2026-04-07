@@ -35,8 +35,8 @@ def build_report(report_data):
 
     priv_esc_success_formatted = ""
     for key, value in priv_esc_success.items():
-        ip, user = key
-        priv_esc_success_formatted += f"        - IP: {ip}, User: {user}, Auth: {value}\n"
+        ip, user, auth = key
+        priv_esc_success_formatted += f"        - IP: {ip}, User: {user}, Auth: {auth}, Message: {value}\n"
 
     high, low = priv_change_filtered
     

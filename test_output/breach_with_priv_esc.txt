@@ -1,1 +1,1 @@
-IP: 10.0.2.87 - AUTH: PRIV_CHANGE
+IP: ('10.0.2.87', 'evazquez35', 'PRIV_CHANGE') - AUTH: User added to administrators group
